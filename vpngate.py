@@ -110,8 +110,6 @@ EDGE_HOSTS = [
             "tinyurl.com:443,"
             "www.doiting.com:443,"
             "macked.app:443,"
-            "linkvertise.com:443,"
-            "assets.bizclikmedia.net:443,"
             "dl.macked.app:443,"
             "codeforces.com:443,"
             "digitalocean.com:443,"
