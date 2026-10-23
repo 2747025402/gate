@@ -81,13 +81,67 @@ COUNTRY_ZH = {
 }
 
 # 静态优选域名池
+# 静态优选域名池
 EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "saas.sin.fan:443,cdn.204910.best:443,www.mfyx.cn:443,p.etime.vip:443,cdn.ctn32.us.kg:443,cf.877774.xyz:443,spring.io:443,"
-        "cf.nyanya.moe:443,www.sloomb.com:443,op.chinwa.eu.cc:443,www.leics.police.uk:443,securecircle.com:443,www.shopify.com:443,"
-        "www.carousell.sg:443,www.dbs.com.sg:443,openai.com:443,linear.app:443,www.bilibili.com:443,uspto.gov:443,www.vmware.com:443",
+        (
+            "hsl.upstate.edu:443,"
+            "www.akasantech.com:443,"
+            "www.giannidelprete.it:443,"
+            "dynadot.com:443,"
+            "auto.dolby.dpdns.org:443,"
+            "api.gzcrtw.com:443,"
+            "eii.at:443,"
+            "cdn.204910.best:443,"
+            "cloudflare.idc.rocks:443,"
+            "cdn.ctn32.us.kg:443,"
+            "cnllm.com:443,"
+            "shabak.gov.il:443,"
+            "support.communilink.net:443,"
+            "themeisle.com:443,"
+            "hostinger.com:443,"
+            "cn.vuejs.org:443,"
+            "bitsight.com:443,"
+            "www.trumpstruth.org:443,"
+            "www.pixelexperience.org:443,"
+            "zmxf.qzz.io:443,"
+            "tinyurl.com:443,"
+            "www.doiting.com:443,"
+            "macked.app:443,"
+            "linkvertise.com:443,"
+            "assets.bizclikmedia.net:443,"
+            "dl.macked.app:443,"
+            "codeforces.com:443,"
+            "digitalocean.com:443,"
+            "fonts.cdnfonts.com:443,"
+            "wsrv.nl:443,"
+            "i.pixiv.re:443,"
+            "s.ee:443,"
+            "dogechain.info:443,"
+            "www.canadatype.com:443,"
+            "iili.io:443,"
+            "totoro.im:443,"
+            "iskills.com:443,"
+            "img.dexbug.com:443,"
+            "www.applevis.com:443,"
+            "test.509666.xyz:443,"
+            "i.jpg.dog:443,"
+            "my.vultr.com:443,"
+            "www.dg22.top:443,"
+            "glitterx.cloud:443,"
+            "api.uniapi.io:443,"
+            "www.ventusky.com:443,"
+            "bizclikmedia.com:443,"
+            "buyshoes.shop:443,"
+            "helium.computer:443,"
+            "newsroom.avalara.com:443,"
+            "time.is:443,"
+            "cdnjs.loli.net:443,"
+            "pt.btschool.club:443,"
+            "zen-browser.app:443"
+        ),
     ).split(",")
     if h.strip()
 ]
